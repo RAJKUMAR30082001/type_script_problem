@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bank Details</title>
+</head>
+<body>
+
+  <h1>Bank Details</h1>
+
+  <form> 
+    <div class="container">
+    <div>
+      <label for="bank">SBI</label>
+      <input type="number" id="bank1" name="year" placeholder="Number of Years" required>
+      <label for="deposit1">Deposit Amount:</label>
+      <input type="number" id="deposit1" name="deposit" placeholder="Deposit Amount" required>
+    </div>
+
+    <div>
+      <label for="bank">CUB</label>
+      <input type="number" id="bank2" name="year" placeholder="Number of Years" required>
+      <label for="deposit2">Deposit Amount:</label>
+      <input type="number" id="deposit2" name="deposit" placeholder="Deposit Amount" required>
+    </div>
+
+    <div>
+      <label for="bank">Indian</label>
+      <input type="number" id="bank3" name="year" placeholder="Number of Years" required>
+      <label for="deposit3">Deposit Amount:</label>
+      <input type="number" id="deposit3" name="deposit" placeholder="Deposit Amount" required>
+    </div>
+</div>
+
+    <button type="button" id="BankButton">Calculate Interest</button>
+  </form>
+  <input type="text" id="bankname" placeholder="enter the bank name to get balance">
+  <p id="display">
+
+  </p>
+  <script type="module" src="../dist/bank.js">
+    
+  </script>
+
+</body>
+</html>

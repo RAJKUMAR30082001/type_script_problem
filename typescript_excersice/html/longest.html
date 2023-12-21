@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array Input Example</title>
+</head>
+<body>
+
+  <form action="#">
+    <label for="arraySize">Enter the size of the array:</label>
+    <input type="number" id="arraySize" name="arraySize" min="1" required>
+    <br>
+
+    <label for="arrayElements">Enter array elements (comma-separated numbers):</label>
+    <input type="text" id="arrayElements" name="Longest" pattern="^[0-9,]+$" required>
+    <small>Separate numbers with commas</small>
+    <br>
+
+    <input type="submit" value="Submit" id="button">
+  </form>
+  <p id="finaloutput"></p>
+
+  <script type='module'src="../dist/Adjacent.js">
+   
+  </script>
+
+</body>
+</html>
